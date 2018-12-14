@@ -1,0 +1,5 @@
+//Install node modules
+npm i
+
+//To run the app
+ng serve
