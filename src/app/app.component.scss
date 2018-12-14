@@ -1,0 +1,40 @@
+.feedback-form-vm {
+  .branding {
+    @media (max-width: 767px) {
+      max-width: 9rem;
+    }
+  }
+  .content-container {
+    background: #ffffff;
+    .content-area {
+      .footer {
+        margin-right: -1rem;
+        margin-left: -1rem;
+        margin-bottom: -1rem;
+        background: #f1f1f1;
+        padding-bottom: 1rem;
+
+        .footer-wrapper {
+          padding-left: 15px;
+        }
+    
+        .vmware-weblogo {
+          margin: 12px 0px;
+        }
+    
+        .copyright {
+          margin-top: 6px;
+    
+          @media (max-width: 767px) {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+.footer-submit-status {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
